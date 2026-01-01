@@ -1,0 +1,11 @@
+project_name         = "ha-wp"
+aws_region           = "ap-southeast-1"
+vpc_cidr             = "192.168.0.0/16"
+public_subnets       = ["192.168.1.0/24", "192.168.2.0/24"]
+private_subnets      = ["192.168.3.0/24", "192.168.4.0/24"]
+availability_zones   = ["ap-southeast-1a", "ap-southeast-1b"]
+instance_type        = "t3.micro"
+db_instance_class    = "db.t3.micro"
+domain_name          = "yourwebsite.com"
+cloudflare_zone_id   = "your-cloudflare-zone-id"
+cloudflare_api_token = "your-cloudflare-api-token"
