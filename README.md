@@ -1,4 +1,3 @@
-=======
 # High Availability WordPress on AWS with Terraform
 
 ![Terraform](https://img.shields.io/badge/Terraform-%3E%3D1.0.0-623CE4?logo=terraform)
