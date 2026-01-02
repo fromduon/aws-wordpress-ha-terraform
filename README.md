@@ -1,4 +1,3 @@
-A production-ready Terraform boilerplate for deploying a High Availability (HA) WordPress infrastructure on AWS. This project automates the provisioning of a secure, scalable Multi-AZ architecture, integrated with Cloudflare for DNS and SSL management.
 =======
 # High Availability WordPress on AWS with Terraform
 
