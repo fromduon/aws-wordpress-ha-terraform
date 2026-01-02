@@ -99,6 +99,10 @@ resource "aws_launch_template" "main" {
   lifecycle {
     create_before_destroy = true
   }
+
+  iam_instance_profile {
+    name = var.iam_instance_profile
+  }
 }
 
 resource "aws_autoscaling_group" "main" {

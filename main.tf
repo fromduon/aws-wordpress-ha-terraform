@@ -54,6 +54,7 @@ module "compute" {
   desired_capacity    = 2
   efs_id              = module.efs.efs_id
   db_endpoint         = module.rds.db_endpoint
+  iam_instance_profile = module.s3.instance_profile_name
 }
 
 module "cloudflare" {
@@ -62,4 +63,9 @@ module "cloudflare" {
   domain_name            = var.domain_name
   alb_dns_name           = module.compute.alb_dns_name
   acm_validation_records = module.acm.validation_records
+}
+
+module "s3" {
+  source       = "./modules/s3"
+  project_name = var.project_name
 }

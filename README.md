@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-# aws-wordpress-ha-terraform
 A production-ready Terraform boilerplate for deploying a High Availability (HA) WordPress infrastructure on AWS. This project automates the provisioning of a secure, scalable Multi-AZ architecture, integrated with Cloudflare for DNS and SSL management.
 =======
 # High Availability WordPress on AWS with Terraform
@@ -9,7 +7,7 @@ A production-ready Terraform boilerplate for deploying a High Availability (HA) 
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-DNS%20%26%20SSL-F38020?logo=cloudflare)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-A production-ready **Infrastructure as Code (IaC)** solution for deploying a scalable, secure, and highly available WordPress environment on AWS. This repository includes both the **Terraform** infrastructure modules and a custom **WordPress Theme** designed for booking and e-commerce.
+A production-ready **Infrastructure as Code (IaC)** solution for deploying a scalable, secure, and highly available WordPress environment on AWS. This repository includes the **Terraform** infrastructure modules.
 
 ---
 
@@ -62,7 +60,6 @@ This project deploys a **Multi-AZ** architecture ensuring redundancy and fault t
 ## Project Structure
 
 ```bash
-.
 ├── main.tf                 # Main orchestration file
 ├── variables.tf            # Variable definitions (customizable)
 ├── outputs.tf              # Output definitions (DNS, Endpoints)
@@ -162,4 +159,3 @@ To destroy all resources and stop incurring costs:
 ```bash
 terraform destroy
 ```
->>>>>>> 9d7a495 (Initial comit)

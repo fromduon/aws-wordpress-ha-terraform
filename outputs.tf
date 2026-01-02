@@ -13,3 +13,7 @@ output "secrets_manager_secret_name" {
 output "certificate_status" {
   value = module.acm.certificate_status
 }
+
+output "s3_bucket_name" {
+  value = module.s3.bucket_name
+}

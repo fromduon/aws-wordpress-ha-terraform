@@ -45,3 +45,7 @@ variable "efs_id" {
 variable "db_endpoint" {
   type = string
 }
+
+variable "iam_instance_profile" {
+  type = string
+}
