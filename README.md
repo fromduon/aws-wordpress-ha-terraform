@@ -9,7 +9,7 @@ A production-ready **Infrastructure as Code (IaC)** solution for deploying a sca
 
 ---
 
-## Table of Contents
+## Outline
 
 - [Architecture Overview](#-architecture-overview)
 - [Key Features](#-key-features)
